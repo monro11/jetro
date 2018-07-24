@@ -1,0 +1,31 @@
+---
+title: Index pageJ
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	
+
+	
+	{# partial example #}
+	{% include "partials/_header.html" %}
+	{% include "partials/_page-title.html" %}
+	<div class="container">
+	{% include "partials/_post.html" %}
+	{% include "partials/_sidebar.html" %}
+	</div>
+
+
+	{# mixin example #}
+	{{mixins.icon('facebook')}}
+
+
+	{# data usage example #}
+		{% import "data/data.html" as tests %}
+		
+		{% for test in tests.list %}
+		<li>{{test.title}}</li>
+		{% endfor %}
+	{# end of example #}
+
+{% endblock %}

@@ -1,0 +1,18 @@
+.slider
+	position: relative
+	&__slide
+		background-size: cover
+		height: 0
+		padding-bottom: 40%
+	&__next, &__prev
+		font-size: 56px
+		position: absolute
+		top: 50%
+		left: 20px	
+		cursor: pointer
+		z-index: 2
+		margin-top: -25px
+	&__next
+		left: auto
+		right: 20px
+		transform: rotate(-180deg)

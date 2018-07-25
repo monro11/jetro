@@ -18,9 +18,19 @@
 			padding-bottom: 10px
 		p
 			padding-bottom: 20px
-			color: #c3c3c3		
+			color: #c3c3c3	
+			font-weight: 500	
 	&__content
 		width: percentage(530/670)
+	&__link
+		.title
+			padding-bottom: 0px
+		p
+			padding-top: 30px	
+	&__img
+		object-fit: cover
+		width: 100%
+
 		
 .title
 	padding-bottom: 23px
@@ -35,11 +45,27 @@
 		display: flex
 		background-size: cover
 	&__text
-		padding-top: 25px
-		padding-bottom: 23px
+		padding-top: 20px
+		padding-bottom: 18px
+		padding-left: 20px
+	&__img
+		padding-left: 36px	
 	h2
-		font-size: 72px	
+		font-size: 66px	
 		font-family: Georgia, serif	
 	p
 		font-size: 13px
 		font-style: italic	
+.subtitle
+	a
+		+helvetica
+		color: #c3c3c3
+		font-size: 12px	
+.delimiter
+	content: ""
+	background: red
+	flex: 1
+	background: url(../img/pattern.png) 0 0	
+	height: 13px
+	margin-bottom: 45px	
+

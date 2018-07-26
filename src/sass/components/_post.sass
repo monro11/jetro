@@ -37,9 +37,17 @@
 
 
 .icon-block
+	position: relative
 	height: 75px
 	width: 75px
 	background-color: red
+	.icon
+		+vcenter
+		width: 32px
+		height: 32px
+		fill: #fff	
+	.icon-quote
+		transform: translate(-50%,-50%) rotate(180deg)	
 .quote
 	&__inner
 		display: flex
@@ -55,7 +63,9 @@
 		font-family: Georgia, serif	
 	p
 		font-size: 13px
-		font-style: italic	
+		font-style: italic
+
+	
 .subtitle
 	a
 		+helvetica

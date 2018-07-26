@@ -1,127 +1,111 @@
 <div class="post">
-  <div class="post__container">
-    <div class="post__icon">
-      <div class="icon-block">{{ mixins.icon('post') }}</div>
-    </div>
-    <div class="post_preview">
-      {% include "partials/_slider.html" %}
-    </div>
-    <div class="post__inner">
-      <div class="post__informers">
-        <div class="post__date">
-          <h4>DATE</h4>
-          <p>April 15, 2012</p>
-        </div>
-        <div class="post__tags">
-          <h4>TAGS</h4>
-          <p>Website | Desing</p>
-        </div>
-        <div class="post__comments">
-          <h4>COMMENTS</h4>
-          <p>4</p>
-        </div>
-      </div>
-      <div class="post__content">
-        <div class="title">
-          <h2>Top  WordPress  Themes  of  20121</h2>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ducimus voluptas distinctio cupiditate accusantium! Eligendi dicta expedita maxime magni minima sit ex, quaerat sequi, illum itaque quae, deleniti quod optio explicabo. Facere illo fugiat excepturi impedit ea incidunt consequatur, omnis nostrum quo beatae quia dolore repellendus, est quam? Commodi, laudantium.</p>
-      </div>
-    </div>
-    <div class="delimiter"></div>
-  </div>
-  <div class="post__container">
-    <div class="post__icon">
-      <div class="icon-block">{{ mixins.icon('post') }}</div>
-    </div>
-    <div class="post__preview">
-      <img src="img/prev.jpg" class="post__img" alt="">
-    </div>
-    <div class="post__inner">
-      <div class="post__informers">
-        <div class="post__date">
-          <h4>DATE</h4>
-          <p>April 15, 2012</p>
-        </div>
-        <div class="post__tags">
-          <h4>TAGS</h4>
-          <p>Website | Desing</p>
-        </div>
-        <div class="post__comments">
-          <h4>COMMENTS</h4>
-          <p>4</p>
-        </div>
-      </div>
-      <div class="post__content">
-        <div class="title">
-          <h2>Top  WordPress  Themes  of  20121</h2>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ducimus voluptas distinctio cupiditate accusantium! Eligendi dicta expedita maxime magni minima sit ex, quaerat sequi, illum itaque quae, deleniti quod optio explicabo. Facere illo fugiat excepturi impedit ea incidunt consequatur, omnis nostrum quo beatae quia dolore repellendus, est quam? Commodi, laudantium.</p>
-      </div>
-    </div>
-    <div class="delimiter"></div>
-  </div>
-  <div class="post__container">
-    <div class="post__icon">
-      <div class="icon-block">{{ mixins.icon('post') }}</div>
-    </div>
-    <div class="post_preview">
+	<div class="post-icon">
+		<div class="icon-block">{{ mixins.icon('slide') }}</div>
+	</div>
+	<div class="preview">{% include "partials/_slider.html" %}</div>
+	<div class="post__wrapper">
+		<div class="informers">
+			<div class="informers__date">
+				<div class="informers__title">Date</div>
+				<div class="informers__content"> April 15, 2012</div>
+			</div>
+			<div class="informers__tags">
+				<div class="informers__title">Tags</div>
+				<div class="informers__content">
+					<a href="#" class="informers__tag">Website |</a>
+					<a href="#" class="informers__tag">Desing</a>
+				</div>
+			</div>
+			<div class="informers__comments">
+				<div class="informers__title">Comments</div>
+				<div class="informers__content">
+					<a href="#" class="informers__counter">4</a>
+				</div>
+			</div>
+		</div>
+		<div class="post__content">
+			<div class="title"><h2>Top  WordPress  Themes  of  2012</h2></div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
 
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1084537" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
-    </div>
-    <div class="post__inner">
-      <div class="post__informers">
-        <div class="post__date">
-          <h4>DATE</h4>
-          <p>April 15, 2012</p>
-        </div>
-        <div class="post__tags">
-          <h4>TAGS</h4>
-          <p>Website | Desing</p>
-        </div>
-        <div class="post__comments">
-          <h4>COMMENTS</h4>
-          <p>4</p>
-        </div>
-      </div>
-      <div class="post__content">
-        <div class="title">
-          <h2>Top  WordPress  Themes  of  20121</h2>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ducimus voluptas distinctio cupiditate accusantium! Eligendi dicta expedita maxime magni minima sit ex, quaerat sequi, illum itaque quae, deleniti quod optio explicabo. Facere illo fugiat excepturi impedit ea incidunt consequatur, omnis nostrum quo beatae quia dolore repellendus, est quam? Commodi, laudantium.</p>
-      </div>
-    </div>
-    <div class="delimiter"></div>
-  </div>
-  <div class="post__container">
-    <div class="post__icon">
-      <div class="icon-block">{{ mixins.icon('quote') }}</div>
-    </div>
-    <div class="quote">
-      <div class="quote__inner" style="background-image: url(img/bgq.png)">
-      <div class="quote__img"><h2>“</h2></div>
-      <div class="quote__text">
-          <p>Write anything you want here in this quotable area. Something unique you want people to learn about your website or some cool random fact. Its totally up to you. </p>
-      </div>
-      </div>
-    </div>
-    
-  </div>
-  <div class="delimiter"></div>
-  <div class="post__container">
-    <div class="post__icon">
-      <div class="icon-block">{{ mixins.icon('post') }}</div>
-    </div>
-    <div class="post__link">
-      <div class="title">
-        <h2>Some  of  the  best  freebies  on  the  web</h2>
-      </div>
-      <div class="subtitle"><a href="#">www.bestpsdfreebies</a></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ducimus voluptas distinctio cupiditate accusantium! Eligendi dicta expedita maxime magni minima sit ex, quaerat sequi, illum itaque quae, deleniti quod optio explicabo. Facere illo fugiat excepturi impedit ea incidunt consequatur, omnis nostrum quo beatae quia dolore repellendus, est quam? Commodi, laudantium.</p>
-    </div>
-  </div>
-  <div class="delimiter"></div>
+				<p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.</p>
+			</div>
+		</div>
+	</div>
 </div>
 
+<div class="delimiter"></div>
+<div class="post">
+	<div class="post-icon">
+		<div class="icon-block">{{ mixins.icon('file') }}</div>
+	</div>
+	<div class="preview"><img src="img/prev.jpg" alt="" class="preview__img"></div>
+	<div class="post__wrapper">
+		<div class="informers">
+			<div class="informers__date">
+				<div class="informers__title">Date</div>
+				<div class="informers__content"> April 15, 2012</div>
+			</div>
+			<div class="informers__tags">
+				<div class="informers__title">Tags</div>
+				<div class="informers__content">
+					<a href="#" class="informers__tag">Website |</a>
+					<a href="#" class="informers__tag">Desing</a>
+				</div>
+			</div>
+			<div class="informers__comments">
+				<div class="informers__title">Comments</div>
+				<div class="informers__content">
+					<a href="#" class="informers__counter">4</a>
+				</div>
+			</div>
+		</div>
+		<div class="post__content">
+			<div class="title"><h2>Top  WordPress  Themes  of  2012</h2></div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
+
+				<p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="delimiter"></div>
+<div class="post">
+	<div class="post-icon">
+		<div class="icon-block">{{ mixins.icon('play') }}</div>
+	</div>
+	<div class="preview"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1084537" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+	<div class="post__wrapper">
+		<div class="informers">
+			<div class="informers__date">
+				<div class="informers__title">Date</div>
+				<div class="informers__content"> April 15, 2012</div>
+			</div>
+			<div class="informers__tags">
+				<div class="informers__title">Tags</div>
+				<div class="informers__content">
+					<a href="#" class="informers__tag">Website |</a>
+					<a href="#" class="informers__tag">Desing</a>
+				</div>
+			</div>
+			<div class="informers__comments">
+				<div class="informers__title">Comments</div>
+				<div class="informers__content">
+					<a href="#" class="informers__counter">4</a>
+				</div>
+			</div>
+		</div>
+		<div class="post__content">
+			<div class="title"><h2>Top  WordPress  Themes  of  2012</h2></div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. Mei no latine praesent forensibus, te sed habemus tacimates, ad ipsum officiis constituto usu. </p>
+
+				<p>Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.</p>
+			</div>
+		</div>
+	</div>
+
+<div class="delimiter"></div>	
+</div>

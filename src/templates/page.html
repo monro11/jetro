@@ -1,33 +1,26 @@
 ---
-title: Index pageJ
+title: Jetro
 ---
 {% extends "layouts/_layout.html" %}
 
 {% block content %}
-	
-
-	
-	{# partial example #}
-	<div class="container">
-	{% include "partials/_header.html" %}
-	{% include "partials/_page-title.html" %}
-	<div class="content">
-	{% include "partials/_post.html" %}
-	{% include "partials/_sidebar.html" %}
-	</div>
-	{% include "partials/_pagination.html" %}
-	</div>
-
-	{# mixin example #}
-	{{mixins.icon('facebook')}}
-
-
-	{# data usage example #}
-		{% import "data/data.html" as tests %}
 		
-		{% for test in tests.list %}
-		<li>{{test.title}}</li>
-		{% endfor %}
-	{# end of example #}
+	{# partial example #}
+	<div class="page-wrapper">
+		{% include "partials/_header.html" %}
+		{% include "partials/_page-title.html" %}
+		<div class="content-wrapper">
+			<div class="post-feed">
+				{% include "partials/_post.html" %}
+				{% include "partials/_post-quote.html" %}
+				{% include "partials/_post-link.html" %}
+				{% include "partials/_pagination.html" %}
+			</div>
+			<div class="sidebar">
+				{% include "partials/_sidebar.html" %}
+			</div>
+		</div>
+	</div>
+
 
 {% endblock %}
